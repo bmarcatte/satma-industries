@@ -1,4 +1,3 @@
-<script>
 const translations = {
     fr: {
         title: "Notre site arrive bientôt",
@@ -42,4 +41,3 @@ window.addEventListener("DOMContentLoaded", () => {
     const savedLang = localStorage.getItem("lang") || "fr";
     setLang(savedLang);
 });
-</script>
